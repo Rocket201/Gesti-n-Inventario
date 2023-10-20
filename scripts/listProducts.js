@@ -9,17 +9,15 @@ export const listProducts = ()=>{
         const row = table.insertRow();
 
         const cell1 = row.insertCell(0);
-        const cell2 = row.insertCell(2);
-        const cell3 = row.insertCell(3);
-        const cell4 = row.insertCell(4);
+        const cell2 = row.insertCell(1);
+        const cell3 = row.insertCell(2);
+        const cell4 = row.insertCell(3);
         
             cell1.innerHTML = item.nombre;
 
             cell2.innerHTML = item.cantidad;
 
             cell3.innerHTML = item.precio;
-
-            cell4.innerHTML = item.nombre;
 
     const editButton =  document.createElement("button");
     editButton.innerText = "EDITAR";
