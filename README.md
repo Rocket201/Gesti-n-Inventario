@@ -1,3 +1,3 @@
-# Ejemplo de ejercicio
-**Autor**: 
-**GitHub**:
+# Ejemplo de ejercicio Inventario
+**Autor**: Alejandro Corroto
+**GitHub**: 
