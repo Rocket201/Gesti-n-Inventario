@@ -9,7 +9,7 @@
 <body>
     <h1> Gestion de inventario: Halloween </h1>
 
-    <form id="product-form-events" class="product-form-events"> 
+    <form id="product-form-events" class="product-form-styles"> 
 
         <label for="product-name">nombre:</label>
         <input type="text" id="product-name">
@@ -20,7 +20,7 @@
         <label for="product-price">Precio: </label>
         <input type="text" step="0.01" id="product-price" required>
 
-        <button type="submit">Agregar Producto</button>
+        <button type="submit" id="b">Agregar Producto</button>
 
     </form>
 
@@ -34,7 +34,7 @@
             <th> Acciones: </th>
 
         </tr>
-
+        <tbody id="clear-table"></tbody>
     </table>
     <script src="scripts/main.js" type="module"></script>
 </body>
