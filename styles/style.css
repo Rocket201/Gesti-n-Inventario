@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'confortaa';
+    src: url('/assets/fonts/Confortaa/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+
+body{
+    font-family: 'confortaa';
+    color: antiquewhite;
+    /* Esto entrara en el examen */
+    background-color: blue;
+    background: radial-gradient(circle, rgba(0,16,96,1) 0%, rgba(0,0,0,1) 100% );
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'confortaa';
+}
+
+.inventory-table-styles{
+border-collapse: collapse;
+width: 80%;
+margin: 20px auto;
+color:antiquewhite;
+
+}
+
+.inventory-table-styles th, .inventory-table-styles td{
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: center;
+}
