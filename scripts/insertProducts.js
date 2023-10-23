@@ -13,8 +13,6 @@ export const insertProducts = () => {
 
         event.preventDefault();
 
-
-
         //Capturar los valores introducidos por el usuario
 
         const productName = document.getElementById("product-name").value;
@@ -22,8 +20,6 @@ export const insertProducts = () => {
         const productQuantity = parseInt(document.getElementById("product-quantity").value);
 
         const productPrice = parseFloat(document.getElementById("product-price").value);
-
-
 
         //Validar que los campos no esten vacios
 
@@ -43,27 +39,18 @@ export const insertProducts = () => {
 
             };
 
-
-
             //Agregar el producto a la lista de productos
 
             inventory.push(newProduct);
 
-
-
             const tbody = document.getElementById("clear-table");
 
-
-
             tbody.innerHTML = "";
-
-
 
             //Limpiamos los campos del formulario
 
             productForm.reset();
-
-
+            
             //Listamos los productos
 
             listProducts();

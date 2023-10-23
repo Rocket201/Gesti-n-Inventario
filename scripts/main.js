@@ -21,7 +21,6 @@ console.log("el boton funciona")
         
 
     });
-
    
 
 });

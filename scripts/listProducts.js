@@ -31,6 +31,7 @@ export const listProducts = ()=>{
        const deleteButton =  document.createElement("button");
        deleteButton.innerText = "BORRAR";
        deleteButton.addEventListener("click", ()=>{
+        
         //logica para borrar el producto (puedes mostrar un mensaje de confirmacion antes)
         //puedes acceder a los datos del productoutilizando item.nombre, item.cantidad
        });
