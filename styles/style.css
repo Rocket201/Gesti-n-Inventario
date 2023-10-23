@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'confortaa';
-    src: url('/assets/fonts/Confortaa/Comfortaa-VariableFont_wght.ttf') format('truetype');
+    src: url('/assets/fonts/Nosifer-Regular.ttf') format('truetype');
 }
 
 body{
@@ -12,7 +12,7 @@ body{
 }
 
 h1{
-    color: antiquewhite;
+    color: red;
     text-align: center;
     font-family: 'confortaa';
 }
@@ -29,4 +29,33 @@ color:antiquewhite;
     border: 1px solid #cccccc;
     padding: 8px;
     text-align: center;
+}
+
+.inventory-table-styles th{
+    background-color: blue;
+    color: #cccccc;
+}
+
+.inventory-table-styles tr:hover{
+    background-color:black;
+    color: #cccccc;
+}
+
+/* Estilos para el formulario con fondo negro */
+
+.product-form-events{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 2px 4px;
+}
+
+/* Estilos para las etiquetas y campos de entrada  */
+
+label{
+    /* con esto forzamos a que no se muevan, para que siempre se vea igual */
+    display: block;  
 }
