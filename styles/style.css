@@ -25,7 +25,8 @@ color:antiquewhite;
 
 }
 
-.inventory-table-styles th, .inventory-table-styles td{
+.inventory-table-styles th, 
+.inventory-table-styles td{
     border: 1px solid #cccccc;
     padding: 8px;
     text-align: center;
@@ -58,4 +59,29 @@ color:antiquewhite;
 label{
     /* con esto forzamos a que no se muevan, para que siempre se vea igual */
     display: block;  
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input{
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    color:white;
+    background-color: black;
+    outline: none;
+}
+
+button{
+    margin: 2% 2% 2% 2%;
+    background-color: blue;
+
+    color: #cccccc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
 }
