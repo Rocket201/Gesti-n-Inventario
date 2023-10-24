@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", listProducts);
 document.addEventListener("DOMContentLoaded", () =>{
 
     const btnForm = document.getElementById("product-form-events");
-console.log("el boton funciona")
+    console.log("el boton funciona")
     btnForm.addEventListener("click", () => {
         console.log("el boton funciona")
         
